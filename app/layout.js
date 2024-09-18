@@ -21,7 +21,13 @@ export default function RootLayout({ children }) {
           {/* 將 Logo 與文本包在一起 */}
           <div className="flex items-center space-x-2">
             <img src="/images/logo.jpg" alt="Logo" className="h-12 w-12" />
-            <div className="hidden md:block">
+            
+            <div className="md:hidden"> {/* 在行動版顯示 */}
+              <span className="text-lg text-white">鳳梨幣-社區互助梨想家</span>
+              <h6 className="text-xs md:text-sm text-white">Pear-To-Peer (P to P token)</h6>
+            </div>
+
+            <div className="hidden md:block"> {/* 在桌面版顯示 */}
               <a href="/" className="text-lg hover:text-slate-200 flex-wrap">
                 鳳梨幣-社區互助梨想家
                 <h6 className="text-xs md:text-sm">Pear-To-Peer (P to P token)</h6>

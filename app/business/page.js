@@ -2,9 +2,9 @@ import Teams from "@/components/Teams";
 import getTeamsList from "@/functions/get-teams-list";
 
 export default function BusinessList () {
-    const teamsItemList = getTeamsList();
+    const businessTeamsList = getTeamsList('商模組');
 
-    const teamsList = teamsItemList.map((teams) => {
+    const teamsList = businessTeamsList.map((teams) => {
         const { id, name, department, position_title, imageURL, linkURL } = teams;
         return <Teams key={id} name={name} department={department} position_title={position_title} imageURL={imageURL} linkURL={linkURL}/>
       });

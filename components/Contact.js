@@ -2,7 +2,7 @@ export default function Contact({ }) {
 
     return (
 
-        <section id="contact" className="scroll-mt-12 p-12 px-5">
+        <section id="contact" className="scroll-mt-12 p-8 px-5">
         <h2 className="text-center text-2xl font-semibold pb-4">聯絡我們</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
     

@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Partners from "@/components/Partners";
 import Project from "@/components/Project";
 import Contact from "@/components/Contact";
+import AutoCarousel from '../components/AutoCarousel';
 
 import getNewslList from "@/functions/get-news-list";
 import getProfessorList from "@/functions/get-professor-list";
@@ -47,14 +48,35 @@ export default function Home() {
 
 
   return (
-    <>      
-      <section id="animation" className="min-h-screen flex items-center justify-center">
-        <img className="w-full mt-12" src="/images/animation.jpg" alt="animation" />
+    <>
+      <div className="h-screen">
+        <AutoCarousel />
+      </div>
+
+      {/* *****************影片***************** */}
+      <section id="animation" className="min-h-screen flex flex-col items-center justify-center">
+
+          <div className="flex justify-center relative w-full max-w-7xl mx-auto mt-8">
+            <iframe 
+              width="840" 
+              height="472" 
+              src="https://www.youtube.com/embed/yHb2LXedl6U?si=GWn_HKGI_nI7u79y" 
+              title="YouTube video player" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerPolicy="strict-origin-when-cross-origin" 
+              allowFullScreen>
+            </iframe>
+          </div>
       </section>
 
+      {/* <section id="animation" className="min-h-screen flex items-center justify-center">
+        <img className="w-full mt-12" src="/images/animation.jpg" alt="animation" />
+      </section> */}
+
       {/* *****************最新消息***************** */}
-      <section id="news" className="p-12 min-h-screen scroll-mt-12">
-        <h2 className="text-center pb-5">最新消息</h2>
+      <section id="news" className="p-6 min-h-screen scroll-mt-12">
+        <h2 className="text-center pb-4">最新消息</h2>
         <div className="container mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
           {newsList}
         </div>
@@ -64,8 +86,8 @@ export default function Home() {
       <About/>
 
       {/* *****************服務內容******************* */}
-      <section id="service" className="p-8 min-h-screen scroll-mt-12">
-        <h2 className="text-center">服務內容</h2>
+      <section id="service" className="p-2 min-h-screen scroll-mt-12">
+        <h2 className="text-center pb-2">服務內容</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
           {projectList}
@@ -76,7 +98,7 @@ export default function Home() {
       <section id="teams" className="py-8 scroll-mt-12 ">
         <div>
           <h2 className="text-center">團隊介紹</h2>
-          <h3 className="text-center pb-2 hover:text-neutral-400">指導教授</h3>
+          <h3 className="text-center pb-4 hover:text-neutral-400">指導教授</h3>
         </div>
         <div className="container mx-auto px-10 sm:px-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {professorList}
@@ -98,7 +120,7 @@ export default function Home() {
       </section>
 
       {/* *****************合作夥伴******************* */}
-      <section id="partners" className="p-12 min-h-screen scroll-mt-12">
+      <section id="partners" className="p-8 min-h-screen scroll-mt-12">
         <h2 className="text-center pb-5">合作夥伴</h2>
             
         <div className="flex justify-center space-x-6">

@@ -1,4 +1,13 @@
+import Painpoint from "./Painpoint";
+import getPainpointList from "@/functions/get-painpoint-list";
+
 export default function About({  }) {
+    const painpointItemList = getPainpointList();
+
+    const painpointList = painpointItemList.map((painpoint) => {
+      const { id, title, content, imageURL } = painpoint;
+      return <Painpoint key={id} title={title} content={content} imageURL={imageURL} />
+    });
 
     return (
 
@@ -39,7 +48,10 @@ export default function About({  }) {
         </div>
 
         <div>
-          <h3 className="text-center pt-8">痛點描述</h3>
+          <h3 className="text-center p-8">痛點描述</h3>
+          <div className="container mx-auto px-10 sm:px-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {painpointList}
+          </div>
         </div>
       </section>
 
