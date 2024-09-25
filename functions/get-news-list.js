@@ -16,22 +16,22 @@ export default function getNewslList() {
             imageURL: "/images/news2.jpg",
             linkURL: "/news2",
         },
-        {
-            id: "3",
-            news_title: "news title",
-            date: "date",
-            contents: "contents",
-            imageURL: "/images/news3.jpg",
-            linkURL: "",
-        },
-        {
-            id: "4",
-            news_title: "news title",
-            date: "date",
-            contents: "contents",
-            imageURL: "/images/news4.jpg",
-            linkURL: "",
-        },
+        // {
+        //     id: "3",
+        //     news_title: "news title",
+        //     date: "date",
+        //     contents: "contents",
+        //     imageURL: "/images/news3.jpg",
+        //     linkURL: "",
+        // },
+        // {
+        //     id: "4",
+        //     news_title: "news title",
+        //     date: "date",
+        //     contents: "contents",
+        //     imageURL: "/images/news4.jpg",
+        //     linkURL: "",
+        // },
         
     ];
 

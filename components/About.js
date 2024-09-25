@@ -48,7 +48,7 @@ export default function About({  }) {
         </div>
 
         <div>
-          <h3 className="text-center p-8">痛點描述</h3>
+          <h3 className="text-center p-8">痛點說明</h3>
           <div className="container mx-auto px-10 sm:px-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {painpointList}
           </div>

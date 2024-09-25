@@ -5,10 +5,10 @@ export default function Professor({ name, department, position_title, imageURL, 
             <a href={linkURL} target="_blank" rel="noopener noreferrer">
                 <img src={imageURL} alt={name} className="w-full h-64 object-cover" />
             </a>
-            <div className="px-3 py-2 md:text-center">
+            <div className="px-2 py-4 md:text-center">
                 <h3 className="text-indigo-600 md:text-blue-800">{name}<span className="text-slate-500 text-sm">{position_title}</span></h3>
                 <p className="text-slate-500 text-sm mt-2 whitespace-nowrap">{department}</p>
-                <p className="text-slate-500 text-sm mt-2">{position_title}</p>
+                {/* <p className="text-slate-500 text-sm mt-2">{position_title}</p> */}
             </div>
         </div>
         

@@ -23,8 +23,10 @@ export default function RootLayout({ children }) {
             <img src="/images/logo.jpg" alt="Logo" className="h-12 w-12" />
             
             <div className="md:hidden"> {/* 在行動版顯示 */}
-              <span className="text-lg text-white">鳳梨幣-社區互助梨想家</span>
-              <h6 className="text-xs md:text-sm text-white">Pear-To-Peer (P to P token)</h6>
+              <a href="/">
+                <span className="text-lg text-white">鳳梨幣-社區互助梨想家</span>
+                <h6 className="text-xs md:text-sm text-white">Pear-To-Peer (P to P token)</h6>
+              </a>
             </div>
 
             <div className="hidden md:block"> {/* 在桌面版顯示 */}

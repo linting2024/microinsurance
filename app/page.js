@@ -55,12 +55,14 @@ export default function Home() {
 
       {/* *****************影片***************** */}
       <section id="animation" className="min-h-screen flex flex-col items-center justify-center">
-
+          {/* // TODO: 影片連結及標題 */}
+          <h2 className="text-center pt-4">影片標題</h2>
+          <p className="pt-3 font-bold">影片介紹</p>
           <div className="flex justify-center relative w-full max-w-7xl mx-auto mt-8">
             <iframe 
               width="840" 
               height="472" 
-              src="https://www.youtube.com/embed/yHb2LXedl6U?si=GWn_HKGI_nI7u79y" 
+              src="https://www.youtube.com/embed/KwCfHVGamn8?si=fKX3cmdRCQkP6RCO" 
               title="YouTube video player" 
               frameBorder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -70,14 +72,10 @@ export default function Home() {
           </div>
       </section>
 
-      {/* <section id="animation" className="min-h-screen flex items-center justify-center">
-        <img className="w-full mt-12" src="/images/animation.jpg" alt="animation" />
-      </section> */}
-
       {/* *****************最新消息***************** */}
       <section id="news" className="p-6 min-h-screen scroll-mt-12">
         <h2 className="text-center pb-4">最新消息</h2>
-        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+        <div className="container mx-auto flex justify-center grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4 max-w-xl">
           {newsList}
         </div>
       </section>
@@ -89,7 +87,7 @@ export default function Home() {
       <section id="service" className="p-2 min-h-screen scroll-mt-12">
         <h2 className="text-center pb-2">服務內容</h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
+        <div className="px-2 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-4">
           {projectList}
         </div>
       </section>
