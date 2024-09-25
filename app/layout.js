@@ -73,7 +73,7 @@ export default function RootLayout({ children }) {
         {/* 頁腳 */}
         <footer className="text-center mt-12">
           <p>
-            CopyRight &copy; 2024 All rights reserved.
+            CopyRight &copy; 2024 Pear-To-Peer (P to P token) All rights reserved.
           </p>
         </footer>
       </body>

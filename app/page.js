@@ -37,8 +37,8 @@ export default function Home() {
   });
 
   const partnersList = partnersItemList.map((partners) => {
-    const { id, shopURL, shopName } = partners;
-    return <Partners key={id} shopURL={shopURL} shopName={shopName} />
+    const { id, shopURL, shopName, shopImageURL } = partners;
+    return <Partners key={id} shopURL={shopURL} shopName={shopName} shopImageURL={shopImageURL}/>
   });
 
   const projectList = projectItemList.map((project) => {
@@ -118,15 +118,15 @@ export default function Home() {
       </section>
 
       {/* *****************合作夥伴******************* */}
+      {/* // TODO: 合作店家 */}
       <section id="partners" className="p-8 min-h-screen scroll-mt-12">
-        <h2 className="text-center pb-5">合作夥伴</h2>
+        <h2 className="text-center">合作夥伴</h2>
             
-        <div className="flex justify-center space-x-6">
+        <div className="flex justify-center space-x-10">
           {partnersList}
         </div>
 
-        {/* // TODO: 合作店家 */}
-        <h2 className="text-center pt-12">合作單位</h2>
+        <h2 className="text-center pt-6">合作單位</h2>
         <div className="flex justify-center space-x-6">
             <a href="https://mft.ccu.edu.tw/" target="_blank" rel="noopener noreferrer">
               <img src="/images/fintech.jpg" alt="fintech" className="mb-4 w-80 h-56 object-contain overflow-hidden hover:opacity-80 hover:scale-105 transform transition-all ease-in-out cursor-pointer"/>

@@ -1,11 +1,14 @@
-export default function Partners({ shopURL, shopName }) {
+export default function Partners({ shopURL, shopName, shopImageURL }) {
 
     return (
-            <div className="flex space-x-6 justify-center bg-white text-black font-semibold">
+            <div className="flex space-x-10 justify-center">
                 <a href={shopURL} target="_blank" rel="noopener noreferrer">
-                  <button className="py-4 px-10 rounded-md shadow-md hover:bg-gray-100 transition">
-                      {shopName}
-                  </button>
+                  <img 
+                    src={shopImageURL} 
+                    alt="partner"
+                    className="transition-transform duration-300 ease-in-out hover:scale-110 hover:opacity-70 object-contain w-36 h-36" 
+                  />
+                  
                 </a>              
             </div>
     );
