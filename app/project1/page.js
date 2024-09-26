@@ -1,7 +1,7 @@
 export default function News2Page () {
     return (
         <>
-        <section className="py-24">
+            <section className="py-24">
                 <div className="max-w-4xl mx-auto text-center mb-16">
                     <h1 className="text-4xl font-bold text-gray-800">時光互助站</h1>
                     <h2 className="text-2xl text-gray-600 mt-4">打造屬於你的社區互助平台</h2>
@@ -10,10 +10,12 @@ export default function News2Page () {
                 <div className="max-w-4xl mx-auto px-4 md:px-8">
                     <div className="mb-12">
                         <h2 className="text-3xl font-semibold text-gray-800 mb-6">產品介紹</h2>
-                        {/* <h3 className="text-2xl font-semibold text-gray-800 mb-6">首先我們先來了解鳳梨幣背後的由來：</h3> */}
                         <p className="text-gray-700 leading-relaxed">
                             時光互助站是一個全新的社區互助平台，將居民的需求與資源無縫連結。我們讓每位使用者都可以通過提供或接受幫助，獲得回報與互惠值，實現互惠共贏的良性循環。無論是急需協助，還是想發揮專長幫助他人，時光互助站都是你參與社區的最佳選擇。
                         </p>
+
+                        <h3 className="text-2xl font-semibold text-gray-800 my-8">服務流程圖</h3>
+                        <img src="/images/服務流程圖.png" alt="project flowchart" className="h-full w-full object-cover"/>
                     </div>
                     
                     <h2 className="text-3xl font-semibold text-gray-800 my-6">核心特點</h2>

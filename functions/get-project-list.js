@@ -9,17 +9,17 @@ export default function getProjectlList() {
         },
         {
             id: "2",
-            project_title: "打貓專案網",
-            contents: "發現民雄新點子，使用Token輕鬆贊助，專案成立更輕鬆",
-            imageURL: "/images/project6.jpg",
-            // linkURL: "/project2",
-        },
-        {
-            id: "3",
             project_title: "鳳梨存摺",
             contents: "瞭解Token流向，實現透明化金流",
             imageURL: "/images/project7.jpg",
             linkURL: "/project3",
+        },
+        {
+            id: "3",
+            project_title: "打貓專案網",
+            contents: "發現民雄新點子，使用Token輕鬆贊助，專案成立更輕鬆",
+            imageURL: "/images/project6.jpg",
+            // linkURL: "/project2",
         },
         {
             id: "4",

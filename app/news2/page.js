@@ -42,17 +42,7 @@ export default function News2Page () {
                         <p className="text-gray-700 leading-relaxed mb-6">學會了嗎，趕緊試用看看吧！</p>
                         
                         <img src="/images/news_2.jpg" alt="project management" className="h-full w-full object-cover"/>
-
-
-
-                        
-                    </div>
-
-                    
-
-                    
-
-                    
+                    </div>                            
                 </div>
             </section>
         </>
