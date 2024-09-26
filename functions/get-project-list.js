@@ -12,7 +12,7 @@ export default function getProjectlList() {
             project_title: "打貓專案網",
             contents: "發現民雄新點子，使用Token輕鬆贊助，專案成立更輕鬆",
             imageURL: "/images/project6.jpg",
-            linkURL: "/project2",
+            // linkURL: "/project2",
         },
         {
             id: "3",
@@ -26,7 +26,7 @@ export default function getProjectlList() {
             project_title: "元氣加油站",
             contents: "體貼、關心你的日常生活",
             imageURL: "/images/project8.jpg",
-            linkURL: "/project4",
+            // linkURL: "/project4",
         },
         
     ];
