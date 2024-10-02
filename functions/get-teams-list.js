@@ -5,7 +5,7 @@ export default function getTeamsList(group) {
             name: "名字",
             department: "學系",
             position_title: "負責部門",
-            imageURL: "/images/teams1.jpg",
+            imageURL: "/images/st1_1.jpg",
             linkURL: "https://mft.ccu.edu.tw/",
             group: "商模組"
         },
@@ -68,7 +68,7 @@ export default function getTeamsList(group) {
             name: "名字",
             department: "學系",
             position_title: "負責部門",
-            imageURL: "/images/teams1.jpg",
+            imageURL: "/images/st2_1.jpg",
             linkURL: "https://mft.ccu.edu.tw/",
             group: "技術組"
         },
@@ -113,7 +113,7 @@ export default function getTeamsList(group) {
             name: "名字",
             department: "學系",
             position_title: "負責部門",
-            imageURL: "/images/teams1.jpg",
+            imageURL: "/images/st3_1.jpg",
             linkURL: "https://mft.ccu.edu.tw/",
             group: "美宣組"
         },

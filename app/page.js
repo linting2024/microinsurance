@@ -120,9 +120,9 @@ export default function Home() {
       {/* *****************合作夥伴******************* */}
       {/* // TODO: 合作店家 */}
       <section id="partners" className="p-8 min-h-screen scroll-mt-12">
-        <h2 className="text-center">合作夥伴</h2>
+        <h2 className="text-center pb-6">合作夥伴</h2>
             
-        <div className="flex justify-center space-x-10">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 flex justify-center space-x-6">
           {partnersList}
         </div>
 
