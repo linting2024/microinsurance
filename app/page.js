@@ -55,21 +55,9 @@ export default function Home() {
 
       {/* *****************影片***************** */}
       <section id="animation" className="min-h-screen flex flex-col items-center justify-center">
-          {/* // TODO: 影片連結及標題 */}
-          <h2 className="text-center pt-4">影片標題</h2>
-          <p className="pt-3 font-bold">影片介紹</p>
-          <div className="flex justify-center relative w-full max-w-7xl mx-auto mt-8">
-            {/* <iframe 
-              width="840" 
-              height="472" 
-              src="https://www.youtube.com/embed/KwCfHVGamn8?si=fKX3cmdRCQkP6RCO" 
-              title="YouTube video player" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              referrerPolicy="strict-origin-when-cross-origin" 
-              allowFullScreen>
-            </iframe> */}
-
+          <h2 className="text-center pt-4">鳳梨幣宣傳影片</h2>
+          {/* <p className="pt-3 font-bold">影片介紹</p> */}
+          <div className="flex justify-center relative w-full max-w-7xl mx-auto mt-8 aspect-w-16 aspect-h-9">
             <iframe 
               width="840" 
               height="472" 

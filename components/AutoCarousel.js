@@ -12,7 +12,7 @@ export default function AutoCarousel() {
         />
         <Carousel.Caption>
           <h3>First Slide Label</h3>
-          <p>First Slide Description</p>
+          {/* <p>First Slide Description</p> */}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000} style={{ height: '100vh' }}>
