@@ -59,10 +59,21 @@ export default function Home() {
           <h2 className="text-center pt-4">影片標題</h2>
           <p className="pt-3 font-bold">影片介紹</p>
           <div className="flex justify-center relative w-full max-w-7xl mx-auto mt-8">
-            <iframe 
+            {/* <iframe 
               width="840" 
               height="472" 
               src="https://www.youtube.com/embed/KwCfHVGamn8?si=fKX3cmdRCQkP6RCO" 
+              title="YouTube video player" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerPolicy="strict-origin-when-cross-origin" 
+              allowFullScreen>
+            </iframe> */}
+
+            <iframe 
+              width="840" 
+              height="472" 
+              src="https://www.youtube.com/embed/81zP8toMjMY?si=Jnx-Z4dxO68wfacT" 
               title="YouTube video player" 
               frameBorder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 

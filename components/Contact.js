@@ -21,21 +21,21 @@ export default function Contact({ }) {
             </div>
             <div>
               <h3 className="text-xl font-semibold">Email：</h3>
-              <p>admyunchi@ccu.edu.tw</p>
+              <p>ccup2ptoken@gmail.com</p>
             </div>
             <div>
               <h3 className="text-xl font-semibold">地址：</h3>
               <p>國立中正大學管理學院</p>
             </div>
 
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a href="https://www.facebook.com/ccuftc/" target="_blank" rel="noopener noreferrer">
                 <img src="/images/fb.jpg" alt="Facebook" className="w-8 h-8 hover:opacity-80" />
               </a>
               <a href="https://www.instagram.com/ccu_ftc/" target="_blank" rel="noopener noreferrer">
                 <img src="/images/ig.jpg" alt="Instagram" className="w-8 h-8 hover:opacity-80" />
               </a>
-            </div>
+            </div> */}
           </div>
 
         </div>
