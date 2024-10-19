@@ -1,3 +1,36 @@
+export const metadata = {
+  title: "鳳梨幣 - 社區互助梨想家",
+  description: "鳳梨幣專案介紹，致力於社區互助的創新金融解決方案。",
+  keywords: "鳳梨幣, 社區互助, 金融, 區塊鏈, P to P Token",
+  openGraph: {
+    title: "鳳梨幣 - 社區互助梨想家",
+    description: "鳳梨幣專案介紹，致力於社區互助的創新金融解決方案。",
+    url: "https://your-website-url.com",
+
+    // images: [
+    //   {
+    //     url: "/images/og-image.jpg",
+    //     width: 800,
+    //     height: 600,
+    //     alt: "鳳梨幣社區互助"
+    //   }
+    // ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@your-twitter-handle",
+    title: "鳳梨幣 - 社區互助梨想家",
+    description: "鳳梨幣專案介紹，致力於社區互助的創新金融解決方案。",
+
+    // images: [
+    //   {
+    //     url: "/images/og-image.jpg",
+    //     alt: "鳳梨幣社區互助"
+    //   }
+    // ]
+  }
+};
+
 import News from "@/components/News";
 import Professor from "@/components/Professor";
 import Teams from "@/components/Teams";

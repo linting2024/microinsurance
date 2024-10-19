@@ -5,8 +5,8 @@ export default function getTeamsList(group) {
             name: "張瑋玲",
             department: "國立中正大學",
             position_title: "金融科技碩士學位學程",
-            imageURL: "/images/st1_1.jpg",
-            linkURL: "https://mft.ccu.edu.tw/",
+            imageURL: "/images/team/瑋玲.jpg",
+            // linkURL: "https://mft.ccu.edu.tw/",
             group: "商模組"
         },
         {
@@ -38,15 +38,6 @@ export default function getTeamsList(group) {
         },
         {
             id: "商模-5",
-            name: "田皓宇",
-            department: "國立中正大學",
-            position_title: "財務金融學系",
-            imageURL: "/images/teams5.jpg",
-            linkURL: "https://www.linkedin.com/in/Tomytien",
-            group: "商模組"
-        },
-        {
-            id: "商模-6",
             name: "楊彥葦",
             department: "國立中正大學",
             position_title: "財務金融系研究所",
@@ -55,20 +46,29 @@ export default function getTeamsList(group) {
             group: "商模組"
         },
         {
+            id: "商模-6",
+            name: "田皓宇",
+            department: "國立中正大學",
+            position_title: "財務金融學系",
+            imageURL: "/images/teams4.jpg",
+            linkURL: "https://www.linkedin.com/in/Tomytien",
+            group: "商模組"
+        },
+        {
             id: "商模-7",
             name: "鍾念欣",
             department: "國立中正大學",
             position_title: "財務金融學系",
-            imageURL: "/images/teams2.jpg",
-            linkURL: "https://mft.ccu.edu.tw/",
+            imageURL: "/images/team/念欣.jpg",
+            linkURL: "https://www.instagram.com/cnh_nellie_/?igsh=MWJka2xnM2dqcXRmdA%3D%3D&utm_source=qr",
             group: "商模組"
         },
         {
             id: "商模-8",
-            name: "名字",
+            name: "旻璟",
             department: "國立中正大學",
             position_title: "系所",
-            imageURL: "/images/teams4.jpg",
+            imageURL: "/images/team/旻璟.jpg",
             linkURL: "https://mft.ccu.edu.tw/",
             group: "商模組"
         },
@@ -83,11 +83,11 @@ export default function getTeamsList(group) {
         },
         {
             id: "商模-10",
-            name: "名字",
+            name: "林怡廷",
             department: "國立中正大學",
-            position_title: "系所",
-            imageURL: "/images/teams4.jpg",
-            linkURL: "https://mft.ccu.edu.tw/",
+            position_title: "金融科技碩士學位學程",
+            imageURL: "/images/team/怡廷.jpg",
+            linkURL: "https://www.facebook.com/tina.lin.92102/?locale=zh_TW",
             group: "商模組"
         },
         {
@@ -149,7 +149,7 @@ export default function getTeamsList(group) {
             name: "余穎欣",
             department: "國立中正大學",
             position_title: "金融科技碩士學位學程",
-            imageURL: "/images/teams2.jpg",
+            imageURL: "/images/team/穎欣.jpg",
             linkURL: "https://www.instagram.com/yuing29_/?igsh=MXU5ODUzemFmZm9hcw%3D%3D&utm_source=qr",
             group: "美宣組"
         },
