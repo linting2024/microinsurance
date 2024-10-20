@@ -41,8 +41,8 @@ export default function getTeamsList(group) {
             name: "楊彥葦",
             department: "國立中正大學",
             position_title: "財務金融系研究所",
-            imageURL: "/images/teams1.jpg",
-            linkURL: "https://mft.ccu.edu.tw/",
+            imageURL: "/images/team/彥葦.jpg",
+            linkURL: "https://www.instagram.com/wiwi0702/",
             group: "商模組"
         },
         {
@@ -65,9 +65,9 @@ export default function getTeamsList(group) {
         },
         {
             id: "商模-8",
-            name: "旻璟",
+            name: "余旻璟",
             department: "國立中正大學",
-            position_title: "系所",
+            position_title: "財務金融學系",
             imageURL: "/images/team/旻璟.jpg",
             linkURL: "https://mft.ccu.edu.tw/",
             group: "商模組"
@@ -87,7 +87,7 @@ export default function getTeamsList(group) {
             department: "國立中正大學",
             position_title: "金融科技碩士學位學程",
             imageURL: "/images/team/怡廷.jpg",
-            linkURL: "https://www.facebook.com/tina.lin.92102/?locale=zh_TW",
+            linkURL: "https://www.facebook.com/tina.lin.92102",
             group: "商模組"
         },
         {
@@ -110,11 +110,11 @@ export default function getTeamsList(group) {
         },
         {
             id: "技術-3",
-            name: "名字",
+            name: "林培煦",
             department: "國立中正大學",
-            position_title: "系所",
-            imageURL: "/images/teams3.jpg",
-            linkURL: "https://mft.ccu.edu.tw/",
+            position_title: "資訊管理學系",
+            imageURL: "/images/teams5.jpg",
+            linkURL: "https://www.linkedin.com/in/%E5%9F%B9%E7%85%A6-%E6%9E%97-756963301/",
             group: "技術組"
         },
         {
@@ -125,16 +125,16 @@ export default function getTeamsList(group) {
             imageURL: "/images/teams4.jpg",
             linkURL: "https://mft.ccu.edu.tw/",
             group: "技術組"
-        },        
+        },
         {
             id: "技術-5",
-            name: "林培煦",
+            name: "名字",
             department: "國立中正大學",
-            position_title: "資訊管理學系",
-            imageURL: "/images/teams5.jpg",
-            linkURL: "https://www.linkedin.com/in/%E5%9F%B9%E7%85%A6-%E6%9E%97-756963301/",
+            position_title: "系所",
+            imageURL: "/images/teams3.jpg",
+            linkURL: "https://mft.ccu.edu.tw/",
             group: "技術組"
-        },
+        },        
         {
             id: "美宣-1",
             name: "名字",

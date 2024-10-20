@@ -5,7 +5,7 @@ export const metadata = {
   openGraph: {
     title: "鳳梨幣 - 社區互助梨想家",
     description: "鳳梨幣專案介紹，致力於社區互助的創新金融解決方案。",
-    url: "https://your-website-url.com",
+    url: "https://ccu-pear-to-peer.vercel.app/",
 
     // images: [
     //   {
