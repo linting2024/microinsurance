@@ -50,7 +50,7 @@ export default function getTeamsList(group) {
             name: "田皓宇",
             department: "國立中正大學",
             position_title: "財務金融學系",
-            imageURL: "/images/teams4.jpg",
+            imageURL: "/images/team/田皓宇.jpeg",
             linkURL: "https://www.linkedin.com/in/Tomytien",
             group: "商模組"
         },
@@ -74,11 +74,11 @@ export default function getTeamsList(group) {
         },
         {
             id: "商模-9",
-            name: "名字",
+            name: "詹人樺",
             department: "國立中正大學",
-            position_title: "系所",
-            imageURL: "/images/teams4.jpg",
-            linkURL: "https://mft.ccu.edu.tw/",
+            position_title: "政治學系",
+            imageURL: "/images/team/人樺.PNG",
+            linkURL: "https://www.linkedin.com/in/victoria-chan-990894321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
             group: "商模組"
         },
         {
@@ -95,7 +95,7 @@ export default function getTeamsList(group) {
             name: "蔡佩璇",
             department: "國立中正大學",
             position_title: "金融科技碩士學位學程",
-            imageURL: "/images/st2_1.jpg",
+            imageURL: "/images/teams1.jpg",
             linkURL: "https://mft.ccu.edu.tw/",
             group: "技術組"
         },
@@ -137,11 +137,11 @@ export default function getTeamsList(group) {
         },        
         {
             id: "美宣-1",
-            name: "名字",
+            name: "姚采旻",
             department: "國立中正大學",
-            position_title: "系所",
-            imageURL: "/images/st3_1.jpg",
-            linkURL: "https://mft.ccu.edu.tw/",
+            position_title: "金融科技碩士學位學程",
+            imageURL: "/images/team/姚采旻.jpg",
+            linkURL: "https://www.instagram.com/christina_ycm/?igsh=MWNmZzhjeXJta3Jobw%3D%3D&utm_source=qr",
             group: "美宣組"
         },
         {
@@ -155,11 +155,11 @@ export default function getTeamsList(group) {
         },
         {
             id: "美宣-3",
-            name: "名字",
+            name: "林軒德",
             department: "國立中正大學",
-            position_title: "系所",
-            imageURL: "/images/teams3.jpg",
-            linkURL: "https://mft.ccu.edu.tw/",
+            position_title: "金融科技碩士學位學程",
+            imageURL: "/images/team/林軒德.jpeg",
+            linkURL: "https://www.instagram.com/linxuande/?hl=en",
             group: "美宣組"
         },
         {
