@@ -12,7 +12,7 @@ export default function About({  }) {
     return (
 
         <section id="about" className="py-4 px-5 scroll-mt-12">
-        <h2 className="text-center pt-8">關於我們</h2>
+        <h2 className="text-center pt-2">關於我們</h2>
         
         <div className="flex flex-col md:flex-row items-center max-w-5xl mx-auto mt-8 space-y-6 md:space-y-0 md:space-x-8">
           <div className="md:w-1/3 h-80">
@@ -21,9 +21,9 @@ export default function About({  }) {
 
           <div className="w-full md:w-2/3">
             <div className="h-full rounded-lg shadow-lg p-8 transform transition-transform duration-300 ease-in-out hover:scale-105">
-              <h3 className="text-indigo-500 text-2xl font-semibold text-center mb-4">公司簡介</h3>
+              <h3 className="text-indigo-500 text-2xl font-semibold text-center mb-4">團隊簡介</h3>
               <p className="text-center leading-relaxed">
-                我們是一家致力於建立互助社區的創新科技公司，透過開發多元化的互助平台，
+                我們是一家致力於建立互助社區的創新科技團隊，透過開發多元化的互助平台，
                 以「鳳梨幣」為核心連結各項服務，解決嘉義地區高昂服務成本、高齡人口、
                 世代隔閡及年輕人專案起步困難等問題，透過 app 上的各項功能，包括時光互助站、
                 打貓專案網、元氣加油站等，讓社區成員獲得幫助的同時，也能創造額外的價值，

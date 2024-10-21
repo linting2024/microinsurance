@@ -3,7 +3,6 @@
 @tailwind utilities;
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
-
 @media (max-width: 768px) {
     .nav-list {
       display: none;

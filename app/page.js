@@ -1,36 +1,3 @@
-export const metadata = {
-  title: "鳳梨幣 - 社區互助梨想家",
-  description: "鳳梨幣專案介紹，致力於社區互助的創新金融解決方案。",
-  keywords: "鳳梨幣, 社區互助, 金融, 區塊鏈, P to P Token",
-  openGraph: {
-    title: "鳳梨幣 - 社區互助梨想家",
-    description: "鳳梨幣專案介紹，致力於社區互助的創新金融解決方案。",
-    url: "https://ccu-pear-to-peer.vercel.app/",
-
-    // images: [
-    //   {
-    //     url: "/images/og-image.jpg",
-    //     width: 800,
-    //     height: 600,
-    //     alt: "鳳梨幣社區互助"
-    //   }
-    // ]
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@your-twitter-handle",
-    title: "鳳梨幣 - 社區互助梨想家",
-    description: "鳳梨幣專案介紹，致力於社區互助的創新金融解決方案。",
-
-    // images: [
-    //   {
-    //     url: "/images/og-image.jpg",
-    //     alt: "鳳梨幣社區互助"
-    //   }
-    // ]
-  }
-};
-
 import News from "@/components/News";
 import Professor from "@/components/Professor";
 import Teams from "@/components/Teams";
@@ -106,7 +73,7 @@ export default function Home() {
 
       {/* *****************最新消息***************** */}
       <section id="news" className="p-6 min-h-screen scroll-mt-12">
-        <h2 className="text-center pb-4">最新消息</h2>
+        <h2 className="text-center pb-10">最新消息</h2>
         <div className="container mx-auto flex justify-center grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4 max-w-xl">
           {newsList}
         </div>
