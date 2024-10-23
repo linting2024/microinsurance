@@ -69,7 +69,7 @@ export default function getTeamsList(group) {
             department: "國立中正大學",
             position_title: "財務金融學系",
             imageURL: "/images/team/旻璟.jpg",
-            linkURL: "https://mft.ccu.edu.tw/",
+            linkURL: "https://www.instagram.com/mmm.yumg/?igsh=MWJsejJ5eDJ0a2VpbA%3D%3DFb%3Ahttps%3A%2F%2Fwww.facebook.com%2Fshare%2F1JvzssjR9ecBv6QQ%2F%3Fmibextid%3Dqi2OmgLinkedin%3Ahttps%3A%2F%2Fwww.linkedin.com%2Fin%2F%E6%97%BB%E7%92%9F-%E4%BD%99-352946294%2F",
             group: "商模組"
         },
         {
