@@ -14,7 +14,7 @@ export default function getTeamsList(group) {
             name: "洪湘怡",
             department: "國立中正大學",
             position_title: "金融科技碩士學位學程",
-            imageURL: "/images/teams2.jpg",
+            imageURL: "/images/team/team.jpg",
             // linkURL: "https://mft.ccu.edu.tw/",
             group: "商模組"
         },
@@ -23,21 +23,12 @@ export default function getTeamsList(group) {
             name: "許庭瑄",
             department: "國立中正大學",
             position_title: "金融科技碩士學位學程",
-            imageURL: "/images/teams3.jpg",
+            imageURL: "/images/team/team.jpg",
             // linkURL: "https://mft.ccu.edu.tw/",
             group: "商模組"
         },
         {
             id: "商模-4",
-            name: "名字",
-            department: "國立中正大學",
-            position_title: "系所",
-            imageURL: "/images/teams4.jpg",
-            linkURL: "https://mft.ccu.edu.tw/",
-            group: "商模組"
-        },
-        {
-            id: "商模-5",
             name: "楊彥葦",
             department: "國立中正大學",
             position_title: "財務金融系研究所",
@@ -46,7 +37,7 @@ export default function getTeamsList(group) {
             group: "商模組"
         },
         {
-            id: "商模-6",
+            id: "商模-5",
             name: "田皓宇",
             department: "國立中正大學",
             position_title: "財務金融學系",
@@ -55,7 +46,7 @@ export default function getTeamsList(group) {
             group: "商模組"
         },
         {
-            id: "商模-7",
+            id: "商模-6",
             name: "鍾念欣",
             department: "國立中正大學",
             position_title: "財務金融學系",
@@ -64,7 +55,7 @@ export default function getTeamsList(group) {
             group: "商模組"
         },
         {
-            id: "商模-8",
+            id: "商模-7",
             name: "余旻璟",
             department: "國立中正大學",
             position_title: "財務金融學系",
@@ -73,7 +64,7 @@ export default function getTeamsList(group) {
             group: "商模組"
         },
         {
-            id: "商模-9",
+            id: "商模-8",
             name: "詹人樺",
             department: "國立中正大學",
             position_title: "政治學系",
@@ -82,7 +73,7 @@ export default function getTeamsList(group) {
             group: "商模組"
         },
         {
-            id: "商模-10",
+            id: "商模-9",
             name: "林怡廷",
             department: "國立中正大學",
             position_title: "金融科技碩士學位學程",
@@ -113,7 +104,7 @@ export default function getTeamsList(group) {
             name: "林培煦",
             department: "國立中正大學",
             position_title: "資訊管理學系",
-            imageURL: "/images/teams5.jpg",
+            imageURL: "/images/team/林培煦.PNG",
             linkURL: "https://www.linkedin.com/in/%E5%9F%B9%E7%85%A6-%E6%9E%97-756963301/",
             group: "技術組"
         },
@@ -122,17 +113,17 @@ export default function getTeamsList(group) {
             name: "陳聖旻",
             department: "國立中正大學",
             position_title: "資訊工程學系",
-            imageURL: "/images/teams4.jpg",
+            imageURL: "/images/team/陳聖旻.jpeg",
             linkURL: "https://www.instagram.com/c.shengmin/profilecard/?igsh=anBlZnVvYW9oaWpz",
             group: "技術組"
         },
         {
             id: "技術-5",
-            name: "名字",
+            name: "張祐瑋",
             department: "國立中正大學",
-            position_title: "系所",
-            imageURL: "/images/teams3.jpg",
-            linkURL: "https://mft.ccu.edu.tw/",
+            position_title: "資訊工程學系",
+            imageURL: "/images/team/張祐瑋.jpg",
+            linkURL: "https://www.instagram.com/youwei____/",
             group: "技術組"
         },        
         {
@@ -167,20 +158,10 @@ export default function getTeamsList(group) {
             name: "洪湘怡",
             department: "國立中正大學",
             position_title: "金融科技碩士學位學程",
-            imageURL: "/images/teams4.jpg",
+            imageURL: "/images/team/team.jpg",
             // linkURL: "https://mft.ccu.edu.tw/",
             group: "美宣組"
         },        
-        {
-            id: "美宣-5",
-            name: "名字",
-            department: "國立中正大學",
-            position_title: "系所",
-            imageURL: "/images/teams5.jpg",
-            linkURL: "https://mft.ccu.edu.tw/",
-            group: "美宣組"
-        },
-        
     ];
 
     if (group) {

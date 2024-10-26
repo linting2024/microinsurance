@@ -11,7 +11,7 @@ export default function AutoCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First Slide Label</h3>
+          {/* <h3>First Slide Label</h3> */}
           {/* <p>First Slide Description</p> */}
         </Carousel.Caption>
       </Carousel.Item>
@@ -22,8 +22,8 @@ export default function AutoCarousel() {
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h3>Second Slide Label</h3>
-          <p>Second Slide Description</p>
+          {/* <h3>Second Slide Label</h3>
+          <p>Second Slide Description</p> */}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000} style={{ height: '100vh' }}>
@@ -33,8 +33,8 @@ export default function AutoCarousel() {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h3>Third Slide Label</h3>
-          <p>Third Slide Description</p>
+          {/* <h3>Third Slide Label</h3>
+          <p>Third Slide Description</p> */}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
