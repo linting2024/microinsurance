@@ -29,7 +29,7 @@ export default function AutoCarousel() {
       <Carousel.Item interval={3000} style={{ height: '100vh' }}>
         <img
           className="d-block w-100 h-100 object-cover"
-          src="/images/slide3.jpg" // 第三張圖片
+          src="/images/slide_3.jpg" // 第三張圖片
           alt="Third slide"
         />
         <Carousel.Caption>
