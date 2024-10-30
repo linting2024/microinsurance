@@ -28,14 +28,14 @@ export default function Contact({ }) {
               <p>國立中正大學管理學院</p>
             </div>
 
-            {/* <div className="flex space-x-4">
-              <a href="https://www.facebook.com/ccuftc/" target="_blank" rel="noopener noreferrer">
+            <div className="flex space-x-4">
+              <a href="https://www.facebook.com/profile.php?id=61567296347464" target="_blank" rel="noopener noreferrer">
                 <img src="/images/fb.jpg" alt="Facebook" className="w-8 h-8 hover:opacity-80" />
               </a>
-              <a href="https://www.instagram.com/ccu_ftc/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/ccu_fintech?igsh=MXVrbWxxZGF4ODh4Yg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
                 <img src="/images/ig.jpg" alt="Instagram" className="w-8 h-8 hover:opacity-80" />
               </a>
-            </div> */}
+            </div>
           </div>
 
         </div>

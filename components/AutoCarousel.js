@@ -6,7 +6,7 @@ export default function AutoCarousel() {
     <Carousel>
       <Carousel.Item interval={3000} style={{ height: '100vh' }}>
         <img
-          className="d-block w-100 h-100 object-cover"
+          className="d-block w-100 h-100 lg:object-cover object-contain"
           src="/images/slide1.jpg" // 第一張圖片
           alt="First slide"
         />
@@ -14,10 +14,11 @@ export default function AutoCarousel() {
           {/* <h3>First Slide Label</h3> */}
           {/* <p>First Slide Description</p> */}
         </Carousel.Caption>
+      
       </Carousel.Item>
       <Carousel.Item interval={3000} style={{ height: '100vh' }}>
         <img
-          className="d-block w-100 h-100 object-cover"
+          className="d-block w-100 h-100 lg:object-cover object-contain"
           src="/images/slide2.jpg" // 第二張圖片
           alt="Second slide"
         />
@@ -25,10 +26,11 @@ export default function AutoCarousel() {
           {/* <h3>Second Slide Label</h3>
           <p>Second Slide Description</p> */}
         </Carousel.Caption>
+      
       </Carousel.Item>
       <Carousel.Item interval={3000} style={{ height: '100vh' }}>
         <img
-          className="d-block w-100 h-100 object-cover"
+          className="d-block w-100 h-100 lg:object-cover object-contain"
           src="/images/slide_3.jpg" // 第三張圖片
           alt="Third slide"
         />
