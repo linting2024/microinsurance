@@ -14,7 +14,7 @@ export default function getPainpointList() {
         },
         {
             id: "3",
-            title: "有志青年沒有缺乏資金",
+            title: "有志青年缺乏資金",
             content: "在這個社區許多學生或是居民會有想成立專案、店舖的夢想，但苦於資金需求的不足，無法順利開張。",
             imageURL: "/images/pain3.jpg",
         },
