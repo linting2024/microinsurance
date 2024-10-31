@@ -49,7 +49,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="h-screen">
+      <div className="h-auto pt-4">
         <AutoCarousel />
       </div>
 
@@ -117,7 +117,7 @@ export default function Home() {
       </section>
 
       {/* *****************合作夥伴******************* */}
-      {/* // TODO: 合作店家 */}
+
       <section id="partners" className="p-8 min-h-screen scroll-mt-12">
         <h2 className="text-center pb-6">合作夥伴</h2>
             

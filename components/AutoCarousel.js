@@ -4,9 +4,10 @@ import { Carousel } from 'react-bootstrap';
 export default function AutoCarousel() {
   return (
     <Carousel>
-      <Carousel.Item interval={3000} style={{ height: '100vh' }}>
+      {/* <Carousel.Item interval={3000} style={{ height: '100vh' }}> */}
+      <Carousel.Item interval={3000} style={{ height: 'auto' }}>
         <img
-          className="d-block w-100 h-100 lg:object-cover object-contain"
+          className="w-100 lg:max-w-screen-xl lg:h-screen lg:object-cover object-contain"
           src="/images/slide1.jpg" // 第一張圖片
           alt="First slide"
         />
@@ -16,9 +17,9 @@ export default function AutoCarousel() {
         </Carousel.Caption>
       
       </Carousel.Item>
-      <Carousel.Item interval={3000} style={{ height: '100vh' }}>
+      <Carousel.Item interval={3000} style={{ height: 'auto' }}>
         <img
-          className="d-block w-100 h-100 lg:object-cover object-contain"
+          className="w-100 lg:max-w-screen-xl lg:h-screen lg:object-cover object-contain"
           src="/images/slide2.jpg" // 第二張圖片
           alt="Second slide"
         />
@@ -28,9 +29,9 @@ export default function AutoCarousel() {
         </Carousel.Caption>
       
       </Carousel.Item>
-      <Carousel.Item interval={3000} style={{ height: '100vh' }}>
+      <Carousel.Item interval={3000} style={{ height: 'auto' }}>
         <img
-          className="d-block w-100 h-100 lg:object-cover object-contain"
+          className="w-100 lg:max-w-screen-xl lg:h-screen lg:object-cover object-contain"
           src="/images/slide_3.jpg" // 第三張圖片
           alt="Third slide"
         />
