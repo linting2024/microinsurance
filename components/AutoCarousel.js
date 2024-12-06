@@ -8,7 +8,7 @@ export default function AutoCarousel() {
       <Carousel.Item interval={3000} style={{ height: 'auto' }}>
         <img
           className="w-100 lg:max-w-screen-xl lg:h-screen lg:object-contain object-contain"
-          src="/images/slide_2.jpg" // 第一張圖片
+          src="/images/slide_1.jpg" // 第一張圖片
           alt="First slide"
         />
         <Carousel.Caption>
@@ -20,7 +20,7 @@ export default function AutoCarousel() {
       <Carousel.Item interval={3000} style={{ height: 'auto' }}>
         <img
           className="w-100 lg:max-w-screen-xl lg:h-screen lg:object-contain object-contain"
-          src="/images/slide_4.jpg" // 第二張圖片
+          src="/images/slide_2.jpg" // 第二張圖片
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -31,7 +31,7 @@ export default function AutoCarousel() {
       </Carousel.Item>
       <Carousel.Item interval={3000} style={{ height: 'auto' }}>
         <img
-          className="w-100 lg:max-w-screen-xl lg:h-screen lg:object-cover object-contain"
+          className="w-100 lg:max-w-screen-xl lg:h-screen lg:object-contain object-contain"
           src="/images/slide_3.jpg" // 第三張圖片
           alt="Third slide"
         />

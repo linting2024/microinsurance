@@ -23,29 +23,24 @@ export default function About({  }) {
             <div className="h-full rounded-lg shadow-lg p-8 transform transition-transform duration-300 ease-in-out hover:scale-105">
               <h3 className="text-indigo-500 text-2xl font-semibold text-center mb-4">團隊簡介</h3>
               <p className="text-center leading-relaxed">
-                我們是一家致力於建立互助社區的創新科技團隊，透過開發多元化的互助平台，
-                以「鳳梨幣」為核心連結各項服務，解決嘉義地區高昂服務成本、高齡人口、
-                世代隔閡及年輕人專案起步困難等問題，透過 app 上的各項功能，包括時光互助站、
-                打貓專案網、元氣加油站等，讓社區成員獲得幫助的同時，也能創造額外的價值，
-                並將幫助他人的回報回饋在社區上。
+                我們是一個致力於推動金融普惠的創新團隊，專注於服務外籍移工的金融需求。隨著全球外籍移工數量不斷增加，他們面臨傳統金融服務難以有效滿足的挑戰，如高昂的匯款手續費、缺乏負擔得起的保險選擇及難以取得小額貸款等。我們透過整合支付、保險與借貸服務，創建一站式數位平台，提供包括小額數位匯款、微型保險及小額貸款在內的多元解決方案，運用AI風險評估等技術，減少操作成本並提升便利性。
               </p>
               <p className="text-center text-red-500 font-semibold mt-8">
-                「我們的目標是打造一個互助、學習、健康的智慧社區環境，讓每個人都能在其中獲得幫助、
-                貢獻自己的力量，並擁有更美好的生活。」
+                「我們的目標是降低外籍移工的金融障礙，提供公平、透明且個性化的服務，讓他們能夠實現經濟自由與穩定，同時促進社會的和諧與永續發展。」
               </p>
             </div>
           </div>
 
         </div>        
 
-        <div className="max-w-3xl mx-auto leading-relaxed mt-12">
+        {/* <div className="max-w-3xl mx-auto leading-relaxed mt-12">
           <div className="rounded-lg shadow-lg p-8 transform transition-transform duration-300 ease-in-out hover:scale-105">
             <h3 className="text-center pb-6">專案時間軸</h3>
             <div className="flex justify-center items-center">
               <img src="/images/timeline.jpg" alt="timeline" className=""/>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div>
           <h3 className="text-center p-8">痛點說明</h3>

@@ -55,7 +55,7 @@ export default function Home() {
 
       {/* *****************影片***************** */}
       <section id="animation" className="min-h-screen flex flex-col items-center justify-center">
-          <h2 className="text-center pt-4">鳳梨幣宣傳影片</h2>
+          <h2 className="text-center pt-4">移保通宣傳影片</h2>
           {/* <p className="pt-3 font-bold">影片介紹</p> */}
           <div className="flex justify-center relative w-full max-w-7xl mx-auto mt-8 aspect-w-16 aspect-h-9">
             <iframe 
@@ -92,16 +92,16 @@ export default function Home() {
       </section>
     
       {/* *****************團隊介紹******************* */}
-      <section id="teams" className="py-8 scroll-mt-12 ">
+      <section id="teams" className="py-4 scroll-mt-12 ">
         <div>
-          <h2 className="text-center">團隊介紹</h2>
-          <h3 className="text-center pb-4 hover:text-neutral-400">指導教授</h3>
+          <h2 className="text-center pb-4">團隊介紹</h2>
+          {/* <h3 className="text-center pb-4 hover:text-neutral-400">指導教授</h3> */}
         </div>
-        <div className="container mx-auto px-10 sm:px-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="container mx-auto px-10 sm:px-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
           {professorList}
         </div>
          
-        <h3 className="text-center py-6 hover:text-neutral-400">專案參與者</h3> 
+        {/* <h3 className="text-center py-6 hover:text-neutral-400">專案參與者</h3> 
 
         <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-6">
           <a href="/business" target="_blank" rel="noopener noreferrer" className="bg-sky-400 text-white font-bold rounded-full h-20 w-40 flex items-center justify-center transition-colors duration-300 ease-in-out hover:bg-sky-300">
@@ -113,19 +113,19 @@ export default function Home() {
           <a href="/design" target="_blank" rel="noopener noreferrer" className="bg-sky-400 text-white font-bold rounded-full h-20 w-40 flex items-center justify-center transition-colors duration-300 ease-in-out hover:bg-sky-300">
             美宣組
           </a>
-        </div>
+        </div> */}
       </section>
 
       {/* *****************合作夥伴******************* */}
 
       <section id="partners" className="p-8 min-h-screen scroll-mt-12">
-        <h2 className="text-center pb-6">合作夥伴</h2>
+        <h2 className="text-center pb-6">合作單位</h2>
             
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 flex justify-center space-x-6">
           {partnersList}
         </div>
 
-        <h2 className="text-center pt-6">合作單位</h2>
+        {/* <h2 className="text-center pt-6">合作單位</h2>
         <div className="flex justify-center space-x-6">
             <a href="https://mft.ccu.edu.tw/" target="_blank" rel="noopener noreferrer">
               <img src="/images/fintech.jpg" alt="fintech" className="mb-4 w-80 h-56 object-contain overflow-hidden hover:opacity-80 hover:scale-105 transform transition-all ease-in-out cursor-pointer"/>
@@ -133,7 +133,7 @@ export default function Home() {
             <a href="https://www.facebook.com/ccuftc/" target="_blank" rel="noopener noreferrer">
               <img src="/images/fintechClub.jpg" alt="fintechClub" className="mt-6 mb-4 w-48 h-48 object-contain overflow-hidden hover:opacity-80 hover:scale-105 transform transition-all ease-in-out cursor-pointer"/>
             </a>
-        </div>
+        </div> */}
         </section>
       
       {/* *****************聯絡我們******************* */}
