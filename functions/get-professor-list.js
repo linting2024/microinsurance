@@ -6,7 +6,7 @@ export default function getProfessorList() {
             department: "任職單位",
             position_title: "職稱",
             imageURL: "/images/teams1.jpg",
-            linkURL: "https://deptfin.ccu.edu.tw/p/404-1118-1070.php?Lang=zh-tw"
+            // linkURL: "https://deptfin.ccu.edu.tw/p/404-1118-1070.php?Lang=zh-tw"
         },
         {
             id: "2",
@@ -14,7 +14,7 @@ export default function getProfessorList() {
             department: "任職單位",
             position_title: "職稱",
             imageURL: "/images/teams2.jpg",
-            linkURL: "https://deptfin.ccu.edu.tw/p/404-1118-1068.php?Lang=zh-tw"
+            // linkURL: "https://deptfin.ccu.edu.tw/p/404-1118-1068.php?Lang=zh-tw"
         },
         {
             id: "3",
@@ -22,7 +22,7 @@ export default function getProfessorList() {
             department: "任職單位",
             position_title: "職稱",
             imageURL: "/images/teams3.jpg",
-            linkURL: "https://mis.ccu.edu.tw/p/405-1120-21975,c2478.php?Lang=zh-tw"
+            // linkURL: "https://mis.ccu.edu.tw/p/405-1120-21975,c2478.php?Lang=zh-tw"
         },
         {
             id: "4",
@@ -38,7 +38,7 @@ export default function getProfessorList() {
             department: "任職單位",
             position_title: "職稱",
             imageURL: "/images/teams5.jpg",
-            linkURL: "https://mft.ccu.edu.tw/p/404-1162-17999.php?Lang=zh-tw"
+            // linkURL: "https://mft.ccu.edu.tw/p/404-1162-17999.php?Lang=zh-tw"
         },
     ];
 

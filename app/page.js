@@ -56,7 +56,7 @@ export default function Home() {
       {/* *****************影片***************** */}
       <section id="animation" className="min-h-screen flex flex-col items-center justify-center">
           <h2 className="text-center pt-4">移保通宣傳影片</h2>
-          {/* <p className="pt-3 font-bold">影片介紹</p> */}
+          <p className="pt-3 font-bold">影片介紹</p>
           <div className="flex justify-center relative w-full max-w-7xl mx-auto mt-8 aspect-w-16 aspect-h-9">
             <iframe 
               width="840" 
@@ -72,12 +72,12 @@ export default function Home() {
       </section>
 
       {/* *****************最新消息***************** */}
-      <section id="news" className="p-6 min-h-screen scroll-mt-12">
+      {/* <section id="news" className="p-6 min-h-screen scroll-mt-12">
         <h2 className="text-center pb-10">最新消息</h2>
         <div className="container mx-auto flex justify-center grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4 max-w-xl">
           {newsList}
         </div>
-      </section>
+      </section> */}
       
       {/* *****************關於我們******************* */}
       <About/>
@@ -90,9 +90,17 @@ export default function Home() {
           {projectList}
         </div>
       </section>
+
+      {/* *****************微型保險***************** */}
+      <section className="p-6 min-h-screen scroll-mt-12">
+        <h2 className="text-center pb-10">微型商品專區</h2>
+        <div className="container mx-auto flex justify-center grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4 max-w-xl">
+          {newsList}
+        </div>
+      </section>
     
       {/* *****************團隊介紹******************* */}
-      <section id="teams" className="py-4 scroll-mt-12 ">
+      <section id="teams" className="py-4 scroll-mt-12">
         <div>
           <h2 className="text-center pb-4">團隊介紹</h2>
           {/* <h3 className="text-center pb-4 hover:text-neutral-400">指導教授</h3> */}
@@ -119,7 +127,7 @@ export default function Home() {
       {/* *****************合作夥伴******************* */}
 
       <section id="partners" className="p-8 min-h-screen scroll-mt-12">
-        <h2 className="text-center pb-6">合作單位</h2>
+        <h2 className="text-center pb-6">合作夥伴</h2>
             
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 flex justify-center space-x-6">
           {partnersList}

@@ -9,7 +9,7 @@ export default function News({ news_title, date, contents, imageURL, linkURL }) 
                     <a href={linkURL} target="_blank" rel="noopener noreferrer">    
                         <h2 className="">{news_title}</h2>
                     </a>
-                    <h5 className="text-gray-600">{date}</h5>
+                    {/* <h5 className="text-gray-600">{date}</h5> */}
                     <p className="py-2 text-md font-bold">{contents}</p>
                 </div>
             </div>

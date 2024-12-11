@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav className="w-full h-15 bg-black flex justify-between items-center px-2 fixed top-0 left-0 z-[999]">
+        <nav className="w-full h-15 bg-slate-700 flex justify-between items-center px-2 fixed top-0 left-0 z-[999]">
           {/* 將 Logo 與文本包在一起 */}
           <div className="flex items-center space-x-2">
             <img src="/images/logo.jpg" alt="Logo" className="h-12 w-12" />
@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
           {/* 桌面版導航 */}
           <div className="hidden md:flex space-x-2">
             <a href="/" className="hover:text-sky-300">首頁</a>
-            <a href="/#news" className="hover:text-sky-300">最新消息</a>
+            {/* <a href="/#news" className="hover:text-sky-300">最新消息</a> */}
             <a href="/#about" className="hover:text-sky-300">關於我們</a>
             <a href="/#service" className="hover:text-sky-300">服務內容</a>
             <a href="/#teams" className="hover:text-sky-300">團隊介紹</a>
@@ -57,7 +57,7 @@ export default function RootLayout({ children }) {
           {isOpen && (
             <div className="absolute top-14 left-0 w-full bg-black text-white flex flex-col items-center space-y-4 py-4 md:hidden">
               <a href="/" className="hover:text-sky-300" onClick={toggleMenu}>首頁</a>
-              <a href="/#news" className="hover:text-sky-300" onClick={toggleMenu}>最新消息</a>
+              {/* <a href="/#news" className="hover:text-sky-300" onClick={toggleMenu}>最新消息</a> */}
               <a href="/#about" className="hover:text-sky-300" onClick={toggleMenu}>關於我們</a>
               <a href="/#service" className="hover:text-sky-300" onClick={toggleMenu}>服務內容</a>
               <a href="/#teams" className="hover:text-sky-300" onClick={toggleMenu}>團隊介紹</a>

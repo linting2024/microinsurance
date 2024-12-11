@@ -5,14 +5,14 @@ export default function getProjectlList() {
             project_title: "小額跨國匯款方案",
             contents: "跨國匯款，低成本、高效率，讓愛無界限傳遞",
             imageURL: "/images/project1.jpg",
-            linkURL: "/project1",
+            linkURL: "https://www.welldone.com.tw/zh-tw",
         },
         {
             id: "2",
             project_title: "微型保險方案",
             contents: "全面保障、靈活方案，安心生活隨手可得",
             imageURL: "/images/project2.jpg",
-            linkURL: "/project2",
+            // linkURL: "/project2",
         },
         {
             id: "3",

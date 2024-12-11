@@ -1,9 +1,9 @@
 import AutoCarouselNews from '@/components/AutoCarouselNews';
 
-export default function News2Page () {
+export default function News3Page () {
     return (
         <>
-            <div className="bg-white p-6 pt-20">
+        <div className="bg-white p-6 pt-20">
             {/* Header Section */}
             <div className="bg-white p-6 rounded shadow-md">
                 <h1 className="text-2xl font-bold mb-4">微型個人定期壽險</h1>
