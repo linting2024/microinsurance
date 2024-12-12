@@ -16,7 +16,7 @@ export default function About({  }) {
         
         <div className="flex flex-col md:flex-row items-center max-w-5xl mx-auto mt-8 space-y-6 md:space-y-0 md:space-x-8">
           <div className="md:w-1/3 h-80">
-            <img src="/images/image6.jpg" alt="About Us" className="h-full w-full object-cover rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105"/>
+            <img src="/images/QRcode.jpg" alt="About Us" className="h-full w-full object-cover rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105"/>
           </div>
 
           <div className="w-full md:w-2/3">

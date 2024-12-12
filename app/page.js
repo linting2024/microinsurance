@@ -54,7 +54,7 @@ export default function Home() {
       </div>
 
       {/* *****************影片***************** */}
-      <section id="animation" className="min-h-screen flex flex-col items-center justify-center">
+      {/* <section id="animation" className="min-h-screen flex flex-col items-center justify-center">
           <h2 className="text-center pt-4">移保通宣傳影片</h2>
           <p className="pt-3 font-bold">影片介紹</p>
           <div className="flex justify-center relative w-full max-w-7xl mx-auto mt-8 aspect-w-16 aspect-h-9">
@@ -69,7 +69,7 @@ export default function Home() {
               allowFullScreen>
             </iframe>
           </div>
-      </section>
+      </section> */}
 
       {/* *****************最新消息***************** */}
       {/* <section id="news" className="p-6 min-h-screen scroll-mt-12">
