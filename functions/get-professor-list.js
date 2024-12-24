@@ -5,7 +5,7 @@ export default function getProfessorList() {
             name: "謝承諺",
             department: "南山人壽",
             position_title: "業務專員",
-            imageURL: "/images/teams1.jpg",
+            imageURL: "/images/teams4.jpg",
             // linkURL: "https://deptfin.ccu.edu.tw/p/404-1118-1070.php?Lang=zh-tw"
         },
         {
@@ -21,7 +21,7 @@ export default function getProfessorList() {
             name: "許倍瑜",
             department: "南山人壽",
             position_title: "業務專員",
-            imageURL: "/images/teams3.jpg",
+            imageURL: "/images/team3.jpg",
             // linkURL: "https://mis.ccu.edu.tw/p/405-1120-21975,c2478.php?Lang=zh-tw"
         },
         {
@@ -29,15 +29,15 @@ export default function getProfessorList() {
             name: "林怡廷",
             department: "南山人壽",
             position_title: "業務專員",
-            imageURL: "/images/teams4.jpg",
-            linkURL: "https://mft.ccu.edu.tw/p/404-1162-17999.php?Lang=zh-tw"
+            imageURL: "/images/team2.jpg",
+            // linkURL: "https://mft.ccu.edu.tw/p/404-1162-17999.php?Lang=zh-tw"
         },
         {
             id: "5",
             name: "丁文卿",
             department: "南山人壽",
             position_title: "業務專員",
-            imageURL: "/images/teams5.jpg",
+            imageURL: "/images/team1.jpg",
             // linkURL: "https://mft.ccu.edu.tw/p/404-1162-17999.php?Lang=zh-tw"
         },
     ];

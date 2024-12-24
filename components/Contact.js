@@ -17,7 +17,7 @@ export default function Contact({ }) {
           <div className="space-y-6">
             <div>
               <h3 className="text-xl font-semibold">專線：</h3>
-              <p>0800-020-060</p>
+              <p>(05) 2729381</p>
             </div>
             <div>
               <h3 className="text-xl font-semibold">Email：</h3>
@@ -25,7 +25,7 @@ export default function Contact({ }) {
             </div>
             <div>
               <h3 className="text-xl font-semibold">地址：</h3>
-              {/* <p>(110401)台北市信義區莊敬路168號</p> */}
+              <p>國立中正大學管理學院</p>
             </div>
 
             <div className="flex space-x-4">

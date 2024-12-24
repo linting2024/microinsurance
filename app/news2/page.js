@@ -30,9 +30,18 @@ export default function News2Page () {
                 </div>
 
                 {/* 繳費方式 */}
-                <div>
+                {/* <div>
                     <h2 className="text-xl font-semibold">繳費方式</h2>
                     <p className="text-gray-600">限年繳，每年TWD2,400，續保TWD2,200</p>
+                </div> */}
+
+                <div>
+                <h2 className="text-xl font-semibold">繳費方式</h2>
+                    <ul className="list-disc list-inside text-gray-600">
+                        <li>限年繳</li>
+                        <li>TWD 400／年</li>
+                        <p className="text-gray-600">(與主約同時投保，首年與續保價格相同)</p>
+                    </ul>
                 </div>
 
                 {/* 保額限制 */}
