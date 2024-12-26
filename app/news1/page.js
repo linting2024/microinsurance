@@ -68,7 +68,7 @@ export default function News1Page () {
                 <div>
                     <h2 className="text-xl font-semibold">要被保人資格限制</h2>
                     <p className="text-gray-600">
-                        要被保人可為不同人，且限外籍移工，另須提供身分證明相關文件。
+                        要被保人可為不同人，且被保人、受益人限外籍移工，另須提供身分證明相關文件。
                     </p>
                 </div>
 

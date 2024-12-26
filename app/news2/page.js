@@ -69,7 +69,7 @@ export default function News2Page () {
                 <div>
                     <h2 className="text-xl font-semibold">要被保人資格限制</h2>
                     <p className="text-gray-600">
-                        要被保人可為不同人，且限外籍移工，另須提供身分證明相關文件。
+                        受益人/要保人為NGO，被保人為NGO自行保留的名單。
                     </p>
                 </div>
 
